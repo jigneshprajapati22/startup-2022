@@ -1,0 +1,35 @@
+body,html{
+	width: 100%;
+	height:  100%;
+	font-family:  'Montserrat',sans-serif;
+	background: url(header.jpg) no-repeat center center fixed;
+	-webkit-background-size:  cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color: #cfd4da;
+	text-transform: uppercase;
+	 animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s;
+}
+.buffer{
+	height: 15rem;
+}
+.btn{
+	font-weight: 700;
+    border-radius: 250px;
+    text-transform: uppercase;
+}
+.btn-primary{
+	background-color: #d582aa;
+	border-color: #d582aa;
+}
+
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
